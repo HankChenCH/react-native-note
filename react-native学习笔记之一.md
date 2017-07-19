@@ -12,7 +12,7 @@
  4. 继续输入`npm install -g yarn react-native`安装本文主角
  5. 从[官网](http://www.oracle.com/technetwork/java/javase/downloads/jdk8-downloads-2133151.html)下载JDK并安装
  6. 从[android studio官网](http://developer.android.com/sdk/index.html)下载并安装Android Studio（可能会被墙，自备梯子）
- 7. 安装完成Android Studio后，进入SDK Manager页面，如下图![](http://otbs2h7e2.bkt.clouddn.com/study_react_native1.png)在SDK Platforms里点击Show Package Details选择Android SDK Platform 23，如下图![](http://otbs2h7e2.bkt.clouddn.com/study_react_native2.png)在SDK Tools里同样点击Show Package Details选择23.0.1和Android Support Repository，如下图![](http://otbs2h7e2.bkt.clouddn.com/study_react_native2.png)待所有SDK下载完毕后，将SDK所在目录新建环境变量ANDROID_HOME中，另外将SDK文件夹里的tools目录和platform-tools目录配置到计算机环境变量中去。
+ 7. 安装完成Android Studio后，进入SDK Manager页面，如下图![](http://otbs2h7e2.bkt.clouddn.com/study_react_native1.png)在SDK Platforms里点击Show Package Details选择Android SDK Platform 23，如下图![](http://otbs2h7e2.bkt.clouddn.com/study_react_native2.png)在SDK Tools里同样点击Show Package Details选择23.0.1和Android Support Repository，如下图![](http://otbs2h7e2.bkt.clouddn.com/study_react_native3.png)待所有SDK下载完毕后，将SDK所在目录新建环境变量ANDROID_HOME中，另外将SDK文件夹里的tools目录和platform-tools目录配置到计算机环境变量中去。
  8. 所有程序文件安装完毕和配置环境变量后，开始新建第一个app。打开命令行输入`react-native init myApp`（请耐性等候），待命令运行完毕，进入到app目录，执行`react-native run-android`（请耐心等候，且不要关闭自动打开的命令行）。待如下图出现，证明程序成功运行，开始愉快的app开发之旅吧！![](http://otbs2h7e2.bkt.clouddn.com/study_react_native4.png)
 ***
 安装过程中可能遇到的坑在这里补充：
